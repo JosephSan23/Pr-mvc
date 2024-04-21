@@ -28,3 +28,4 @@ C:\Users\olart\OneDrive\Documentos\C#\proyectoMVC\CapaPresentacionAdmin\obj\Debu
 C:\Users\olart\OneDrive\Documentos\C#\proyectoMVC\CapaPresentacionAdmin\obj\Debug\net8.0\CapaPresentacionAdmin.pdb
 C:\Users\olart\OneDrive\Documentos\C#\proyectoMVC\CapaPresentacionAdmin\obj\Debug\net8.0\CapaPresentacionAdmin.genruntimeconfig.cache
 C:\Users\olart\OneDrive\Documentos\C#\proyectoMVC\CapaPresentacionAdmin\obj\Debug\net8.0\ref\CapaPresentacionAdmin.dll
+C:\Users\olart\OneDrive\Documentos\C#\proyectoMVC\CapaPresentacionAdmin\bin\Debug\net8.0\libman.json

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WXh6pwD1LjuOmqTEw7BqlmdVARB5ZIIMWO5oZPiToSrMUpVlmHmW3FfKP1lmcChnfiEYj1ZrBlsUb1T7Jd1k2w==",
+  "dgSpecHash": "nuApVv2+ZKFDrxxLbJ2TYwG77PP0vpVhicwKKxT1mCqLxX+juDuKPqUDBQ1qUiexEy0s6etov3p1fHpyKNkpjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\olart\\.nuget\\packages\\font.awesome\\5.15.4\\font.awesome.5.15.4.nupkg.sha512",
+    "C:\\Users\\olart\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
