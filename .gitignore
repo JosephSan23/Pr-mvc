@@ -416,3 +416,40 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio
+
+# Ignorar archivos de la carpeta de compilación
+bin/
+obj/
+
+# Archivos de configuración del entorno de desarrollo de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de paquetes NuGet
+packages/
+
+# Archivos de backup
+*_ReSharper*/
+*.[Bb]ak
+
+# Archivos temporales
+*.cache
+*.log
+*.vspscc
+*.[Cc]ache
+*.bak
+*.ncb
+*.log
+*.pdb
+*.DS_Store
+
+# Archivos generados por la IDE
+*.opendb
+*.dbmdl
+
+# Configuraciones locales
+appsettings.json
+*.config
