@@ -455,5 +455,5 @@ appsettings.json
 *.config
 
 # Debug
-bin/
-obj/
+**/bin/
+**/obj/
