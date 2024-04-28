@@ -453,3 +453,7 @@ packages/
 # Configuraciones locales
 appsettings.json
 *.config
+
+# Debug
+bin/
+obj/
