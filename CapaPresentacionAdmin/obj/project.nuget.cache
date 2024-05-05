@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "+PseoPzuQoD0eSfv4a92QFo6hdBnlPt+GJbwj2XdHN5x+TToKbFWt6kB9fUQgOYt9Pqs4W4qf/VF0tVVnM0AkA==",
+=======
+  "dgSpecHash": "JHMLJAzhS8AB3v6/ncsbQ3kiE1+YcCC3T18WgJwR7iDIAmqtFjxPQSlom8TR45t+1Wu6gT786KnpCVr6kKVAVw==",
+>>>>>>> 9e43ba845d41b467e0dc08c18a548a0451d3b547
   "success": true,
   "projectFilePath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaPresentacionAdmin\\CapaPresentacionAdmin.csproj",
   "expectedPackageFiles": [

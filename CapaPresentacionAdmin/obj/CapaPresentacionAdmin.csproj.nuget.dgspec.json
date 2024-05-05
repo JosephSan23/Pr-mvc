@@ -9,6 +9,7 @@
         "projectUniqueName": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaDatos\\CapaDatos.csproj",
         "projectName": "CapaDatos",
         "projectPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaDatos\\CapaDatos.csproj",
+<<<<<<< HEAD
         "packagesPath": "C:\\Users\\olart\\.nuget\\packages\\",
         "projectStyle": "PackagesConfig",
         "configFilePaths": [
@@ -19,6 +20,8 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
+=======
+>>>>>>> 9e43ba845d41b467e0dc08c18a548a0451d3b547
         "frameworks": {
           "net472": {
             "projectReferences": {
@@ -27,8 +30,12 @@
               }
             }
           }
+<<<<<<< HEAD
         },
         "packagesConfigPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaDatos\\packages.config"
+=======
+        }
+>>>>>>> 9e43ba845d41b467e0dc08c18a548a0451d3b547
       },
       "frameworks": {
         "net472": {}
@@ -39,6 +46,7 @@
         "projectUniqueName": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaEntidad\\CapaEntidad.csproj",
         "projectName": "CapaEntidad",
         "projectPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaEntidad\\CapaEntidad.csproj",
+<<<<<<< HEAD
         "packagesPath": "C:\\Users\\olart\\.nuget\\packages\\",
         "projectStyle": "PackagesConfig",
         "configFilePaths": [
@@ -49,12 +57,18 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
+=======
+>>>>>>> 9e43ba845d41b467e0dc08c18a548a0451d3b547
         "frameworks": {
           "net472": {
             "projectReferences": {}
           }
+<<<<<<< HEAD
         },
         "packagesConfigPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaEntidad\\packages.config"
+=======
+        }
+>>>>>>> 9e43ba845d41b467e0dc08c18a548a0451d3b547
       },
       "frameworks": {
         "net472": {}
@@ -65,6 +79,7 @@
         "projectUniqueName": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaNegocio\\CapaNegocio.csproj",
         "projectName": "CapaNegocio",
         "projectPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaNegocio\\CapaNegocio.csproj",
+<<<<<<< HEAD
         "packagesPath": "C:\\Users\\olart\\.nuget\\packages\\",
         "projectStyle": "PackagesConfig",
         "configFilePaths": [
@@ -75,6 +90,8 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
+=======
+>>>>>>> 9e43ba845d41b467e0dc08c18a548a0451d3b547
         "frameworks": {
           "net472": {
             "projectReferences": {
@@ -86,8 +103,12 @@
               }
             }
           }
+<<<<<<< HEAD
         },
         "packagesConfigPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaNegocio\\packages.config"
+=======
+        }
+>>>>>>> 9e43ba845d41b467e0dc08c18a548a0451d3b547
       },
       "frameworks": {
         "net472": {}
