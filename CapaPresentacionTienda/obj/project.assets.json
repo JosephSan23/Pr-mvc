@@ -1,11 +1,65 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        }
+      },
+      "CapaEntidad/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        }
+      },
+      "CapaNegocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaDatos": "1.0.0",
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CapaDatos/1.0.0": {
+      "type": "project",
+      "path": "../CapaDatos/CapaDatos.csproj",
+      "msbuildProject": "../CapaDatos/CapaDatos.csproj"
+    },
+    "CapaEntidad/1.0.0": {
+      "type": "project",
+      "path": "../CapaEntidad/CapaEntidad.csproj",
+      "msbuildProject": "../CapaEntidad/CapaEntidad.csproj"
+    },
+    "CapaNegocio/1.0.0": {
+      "type": "project",
+      "path": "../CapaNegocio/CapaNegocio.csproj",
+      "msbuildProject": "../CapaNegocio/CapaNegocio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CapaEntidad >= 1.0.0",
+      "CapaNegocio >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\olart\\.nuget\\packages\\": {}
@@ -33,7 +87,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaEntidad\\CapaEntidad.csproj": {
+              "projectPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaEntidad\\CapaEntidad.csproj"
+            },
+            "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaNegocio\\CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaNegocio\\CapaNegocio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
