@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
+<<<<<<< HEAD
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -998,11 +999,46 @@
         },
         "runtime": {
           "bin/placeholder/ClasesDatos.dll": {}
+=======
+      "CapaDatos/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaDatos.dll": {}
+        }
+      },
+      "CapaEntidad/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaEntidad.dll": {}
+        }
+      },
+      "CapaNegocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CapaDatos": "1.0.0",
+          "CapaEntidad": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CapaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CapaNegocio.dll": {}
+>>>>>>> 3330313e607d68c297c20709db8a04b5c077fff7
         }
       }
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "Azure.Core/1.35.0": {
       "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
       "type": "package",
@@ -2758,11 +2794,32 @@
       "type": "project",
       "path": "../ClasesDatos/ClasesDatos.csproj",
       "msbuildProject": "../ClasesDatos/ClasesDatos.csproj"
+=======
+    "CapaDatos/1.0.0": {
+      "type": "project",
+      "path": "../CapaDatos/CapaDatos.csproj",
+      "msbuildProject": "../CapaDatos/CapaDatos.csproj"
+    },
+    "CapaEntidad/1.0.0": {
+      "type": "project",
+      "path": "../CapaEntidad/CapaEntidad.csproj",
+      "msbuildProject": "../CapaEntidad/CapaEntidad.csproj"
+    },
+    "CapaNegocio/1.0.0": {
+      "type": "project",
+      "path": "../CapaNegocio/CapaNegocio.csproj",
+      "msbuildProject": "../CapaNegocio/CapaNegocio.csproj"
+>>>>>>> 3330313e607d68c297c20709db8a04b5c077fff7
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "ClasesDatos >= 1.0.0"
+=======
+      "CapaEntidad >= 1.0.0",
+      "CapaNegocio >= 1.0.0"
+>>>>>>> 3330313e607d68c297c20709db8a04b5c077fff7
     ]
   },
   "packageFolders": {
@@ -2792,8 +2849,16 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\ClasesDatos\\ClasesDatos.csproj": {
               "projectPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\ClasesDatos\\ClasesDatos.csproj"
+=======
+            "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaEntidad\\CapaEntidad.csproj": {
+              "projectPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaEntidad\\CapaEntidad.csproj"
+            },
+            "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaNegocio\\CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\proyectoMVC\\CapaNegocio\\CapaNegocio.csproj"
+>>>>>>> 3330313e607d68c297c20709db8a04b5c077fff7
             }
           }
         }

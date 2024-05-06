@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="..\ClasesDatos\ClasesDatos.csproj" />
+=======
+    <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj" />
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj" />
+>>>>>>> 3330313e607d68c297c20709db8a04b5c077fff7
   </ItemGroup>
 
 </Project>
