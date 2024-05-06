@@ -1,9 +1,22 @@
+using ClasesDatos;
+using Microsoft.EntityFrameworkCore;
+using System.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Conexion a bd
+builder.Services.AddSqlServer<ConexionContext>(builder.Configuration.GetConnectionString("CarritoConnection"));
+
 var app = builder.Build();
+
+//using (var scope = app.Services.CreateScope())
+//{
+//    var context = scope.ServiceProvider.GetRequiredService<ConexionContext>();
+//    context.Database.Migrate();
+//}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
